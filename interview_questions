@@ -1,0 +1,50 @@
+1. Write a program that takes a string as input and returns a run length encoded string.
+    Ex: input: wwwwaaadexxxy
+        output: w4a3d1e1x3y1
+----------------------------------------------------------------------
+2. 1. A theater has rows from A to Z with each Rows having 40 Seats. Write a program to simulate a theater booking where you can book the Tickets starting from seat no. A1 to Z40. On closing the program save the last booked tickets on and next time starting the program you should continue from the last saved seat.
+----------------------------------------------------------------------
+3. A string is called unique if all characters of string are distinct.
+String s1 is called subsequence of string s2 if s1 can be produced from s2 by removing some characters of s2.
+String s1 is stronger than s2 if s1 is lexicographically greater than s2.
+You are given a string. Your task is to find the strongest unique string which is subsequence of given string.
+
+Input:
+first line contains length of string.
+second line contains the string.
+
+Output:
+Output the strongest unique string which is subsequence of given string.
+
+Constraints:
+1 ≤ |S| ≤ 100000
+All letters are lowercase English letters.
+
+Sample input:
+5
+abvzx
+
+Output:
+zx
+----------------------------------------------------------------------
+4. class Transport {
+	public static void main(String[] args) {
+		Vehicle v1,v2,v3;
+		
+		v1 = new Car ("Ferrari", new Dieselengine(5));
+		v2 = new Car ("Audi", new Petrolengine(6));
+		v3 = new Ship ("Titanic", new Dieselengine(8));
+
+		v1.start_with_Key();
+		v2.start_with_Key();
+		v3.start_with_Key();
+        }
+  }
+
+output expected:
+
+starting - Ferrari Diesel Engine 5 Ltrs
+starting - Audi Petrol Engine 6 Ltrs
+starting - Titanic Diesel Engine 8 Ltrs
+
+
